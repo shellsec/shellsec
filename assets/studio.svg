@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">shellsec's digital studio</title>
+  <desc id="desc">An illustrated night-time studio with a glowing terminal, a bookshelf, a moonlit window and a sleeping orange cat.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#182039"/><stop offset="1" stop-color="#252744"/></linearGradient>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#11182e"/><stop offset="1" stop-color="#383563"/></linearGradient>
+    <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#333049"/><stop offset="1" stop-color="#201f34"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#9af1cb" stop-opacity=".13"/><stop offset="1" stop-color="#9af1cb" stop-opacity="0"/></radialGradient>
+    <style>text{font-family:Consolas,'Liberation Mono',monospace}.line{stroke:#11182b;stroke-width:5;stroke-linejoin:round}.soft{stroke:#72718d;stroke-width:2;opacity:.22}</style>
+  </defs>
+  <rect width="1200" height="630" rx="22" fill="#101524"/>
+  <path d="M22 1h1156a21 21 0 0 1 21 21v42H1V22A21 21 0 0 1 22 1Z" fill="#20263a"/>
+  <circle cx="30" cy="32" r="6" fill="#fa827e"/><circle cx="52" cy="32" r="6" fill="#efc775"/><circle cx="74" cy="32" r="6" fill="#8ed8af"/>
+  <text x="600" y="38" text-anchor="middle" fill="#adb4ce" font-size="14" letter-spacing="2">shellsec / a little room on the internet</text>
+  <path d="M1 64h1198v415H1Z" fill="url(#wall)"/>
+  <path d="M1 479h1198v129a21 21 0 0 1-21 21H22a21 21 0 0 1-21-21Z" fill="url(#floor)"/>
+  <path d="M1 479h1198" stroke="#151b2d" stroke-width="8"/>
+  <path d="m80 630 160-147m155 147 67-147m324 147-54-147m320 147L987 483M1 552h1198" class="soft"/>
+  <ellipse cx="570" cy="353" rx="320" ry="240" fill="url(#glow)"/>
+  <!-- Moonlit window -->
+  <rect x="827" y="114" width="250" height="237" rx="7" fill="#11182b" stroke="#4c506e" stroke-width="9"/>
+  <rect x="840" y="127" width="224" height="211" fill="url(#sky)"/>
+  <circle cx="1005" cy="174" r="25" fill="#f0e5c7"/>
+  <circle cx="1017" cy="164" r="24" fill="#202441"/>
+  <g fill="#c7cde7"><rect x="865" y="152" width="3" height="3"/><rect x="918" y="180" width="3" height="3"/><rect x="1043" y="219" width="3" height="3"/><rect x="977" y="237" width="3" height="3"/><rect x="887" y="229" width="3" height="3"/></g>
+  <path d="M840 307h25v-32h28v18h22v-42h31v30h35v-14h26v34h26v-54h31v91H840Z" fill="#151e34"/>
+  <g fill="#e8c68a" opacity=".65"><rect x="875" y="286" width="5" height="7"/><rect x="925" y="263" width="5" height="7"/><rect x="925" y="280" width="5" height="7"/><rect x="1044" y="261" width="5" height="7"/></g>
+  <path d="M952 123v219m-116-105h232" stroke="#4c506e" stroke-width="8"/>
+  <rect x="812" y="344" width="281" height="13" rx="4" fill="#65617e"/>
+  <!-- Bookshelf -->
+  <rect x="130" y="165" width="208" height="15" rx="3" fill="#977c79" class="line"/>
+  <path d="M147 181v18m173-18v18" stroke="#11182b" stroke-width="6"/>
+  <g class="line"><rect x="146" y="105" width="24" height="59" fill="#8ebcb1"/><rect x="174" y="91" width="23" height="73" fill="#b5a6d9"/><rect x="201" y="113" width="22" height="51" fill="#e9b47f"/><path d="m229 105 21-5 16 60-21 5Z" fill="#b67b91"/></g>
+  <path d="M151 119h14m13-12h15m12 19h14" stroke="#253047" stroke-width="3"/>
+  <path d="M292 141c-27-21-10-44 2-30 2-33 31-30 17-3 29-4 25 25-8 32" fill="#8ec1a0" stroke="#192237" stroke-width="4"/>
+  <path d="m279 138 7 26h30l7-26Z" fill="#c48e81" class="line"/>
+  <text x="132" y="226" fill="#969bb9" font-size="12" letter-spacing="2">01 / COLLECT IDEAS</text>
+  <!-- Desk and terminal -->
+  <ellipse cx="540" cy="552" rx="270" ry="28" fill="#131929" opacity=".5"/>
+  <path d="M302 419v133h22l15-133m355 0 15 133h22V419" fill="#8b7379" class="line"/>
+  <rect x="278" y="399" width="480" height="24" rx="5" fill="#ac8986" class="line"/>
+  <rect x="389" y="218" width="274" height="157" rx="9" fill="#596078" class="line"/>
+  <rect x="401" y="230" width="250" height="129" rx="3" fill="#121f2c"/>
+  <circle cx="526" cy="366" r="3" fill="#9aebc7"/>
+  <path d="M511 376v16h-32v7h95v-7h-32v-16" fill="#596078" class="line"/>
+  <g fill="#a5eac7" font-size="14"><text x="420" y="258">$ whoami</text><text x="420" y="283" fill="#e0d8ec">shellsec</text><text x="420" y="311">$ make something cool</text><text x="420" y="338">&gt; <tspan fill="#efc987">_</tspan></text></g>
+  <path d="M445 389h-29l-12 10h199l-13-10H445Z" fill="#74788f" stroke="#182035" stroke-width="3"/>
+  <path d="M427 394h153" stroke="#b0b3c6" stroke-dasharray="7 4" stroke-width="2"/>
+  <rect x="690" y="366" width="30" height="31" rx="4" fill="#e0c6a3" class="line"/>
+  <path d="M720 372h9v16h-9" fill="none" stroke="#e0c6a3" stroke-width="5"/>
+  <path d="M698 353q-7-7 0-14m11 14q-7-7 0-14" fill="none" stroke="#c4b7b4" stroke-width="2" opacity=".5"/>
+  <text x="388" y="195" fill="#969bb9" font-size="12" letter-spacing="2">02 / BUILD SOMETHING</text>
+  <!-- Desk lamp -->
+  <path d="M328 395h46m-23-4v-85l22-39" fill="none" stroke="#d8b47d" stroke-width="7" stroke-linecap="round"/>
+  <path d="m354 265 24-12 21 34-53 1Z" fill="#edc98d" class="line"/>
+  <path d="m350 291-23 104h104l-39-104" fill="#f7d68d" opacity=".06"/>
+  <!-- Sleeping cat -->
+  <ellipse cx="924" cy="536" rx="113" ry="29" fill="#a58c97" opacity=".25"/>
+  <path d="M861 517c-24-3-27-39-8-44 15-4 23 13 11 20" fill="none" stroke="#dcaa7e" stroke-width="17" stroke-linecap="round"/>
+  <path d="M864 522c-10-45 12-67 47-67 39 0 60 23 61 65Z" fill="#d9a078" stroke="#182035" stroke-width="4"/>
+  <path d="m940 484 1-24 20 13 20-11 5 29c17 34-49 48-54 17Z" fill="#e7b88b" stroke="#182035" stroke-width="4"/>
+  <path d="m944 493 8 3 7-4m9-1 8 3 6-5m-22 13 4 3 4-4" fill="none" stroke="#5b4050" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="m887 461 8 15m9-20 5 17m15-14 4 13" stroke="#ad765e" stroke-width="5" stroke-linecap="round"/>
+  <text x="996" y="462" fill="#b8b1cd" font-size="18" transform="rotate(10 996 462)">z</text><text x="1018" y="442" fill="#b8b1cd" font-size="14">z</text>
+  <text x="841" y="575" fill="#969bb9" font-size="12" letter-spacing="2">03 / STAY CURIOUS</text>
+  <text x="46" y="596" fill="#818aa7" font-size="12">GUEST ACCESS: ALWAYS OPEN</text>
+  <circle cx="1123" cy="594" r="4" fill="#9aebc7"/><text x="1140" y="599" fill="#9aebc7" font-size="12">hi.</text>
+</svg>
