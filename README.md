@@ -1,78 +1,40 @@
 <div align="center">
 
-<!-- A little room on the internet. Come in, look around. -->
+# SHELLSEC / Orbital station
 
-# hey, I'm shellsec.
+**代码是信号，好奇心是引力。**
 
-**一间小小的数字工作室，欢迎随便逛逛。**
+[![SHELLSEC orbital control center](assets/control-center.svg)](https://shellsec.github.io/shellsec/)
 
-Build things. Break things. Stay curious.
+[ **进入交互控制中心 ↗** ](https://shellsec.github.io/shellsec/)　·　[项目舱](https://github.com/shellsec?tab=repositories)　·　[灵感档案](https://github.com/shellsec?tab=stars)
 
-[![Enter the studio](./assets/studio.svg)](https://github.com/shellsec?tab=repositories)
-
-**选择一个入口，开始探索。**
-
-[ ` 🖥️ 终端 · 项目 ` ](https://github.com/shellsec?tab=repositories)　
-[ ` 📚 书架 · 收藏 ` ](https://github.com/shellsec?tab=stars)　
-[ ` 🐈 小猫 · 随便逛逛 ` ](https://github.com/explore)
+<sub>每颗星对应一天的真实贡献 · 星越亮，贡献越多 · 每天自动同步</sub>
 
 </div>
 
----
+### 项目通讯
 
-```sh
-guest@studio:~$ cat welcome.txt
-
-这里是 shellsec 的 GitHub 小屋。
-代码放在终端里，灵感收进书架，猫负责陪你发呆。
-没有固定的参观路线，挑一个感兴趣的项目开始就好。
-
-guest@studio:~$ ls
-projects/     bookmarks/     side-quests/
-```
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🖥️ 打开终端
-
-每个仓库，都是一个正在展开的故事。
-
-[浏览我的项目 →](https://github.com/shellsec?tab=repositories)
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 翻翻书架
-
-沿着收藏，偶遇下一个有趣的点子。
-
-[看看我的 Stars →](https://github.com/shellsec?tab=stars)
-
-</td>
-</tr>
-</table>
+| 项目 | 信号内容 | 语言 | Stars |
+| :-- | :-- | :-- | --: |
+| [AINav](https://github.com/shellsec/AINav) | 🧭 AINav — 最全 AI 工具导航站，收录 590+ AI 工具，涵盖写作、绘图、编程、视频、音频、智能体、RAG、MCP 等分类，支持收藏、搜索、深浅主题切换。 | HTML | 4 |
+| [bolemusic](https://github.com/shellsec/bolemusic) | 波乐音乐NS  Nintendo Switch 音乐播放器，支持触屏、歌词、动态氛围与多主题。音源需自行导入，支持多源自动切换。 | — | 1 |
+| [LangSrcCurise](https://github.com/shellsec/LangSrcCurise) | LangSrc资产监控系统是一套实现对指定域名进行持续性信息收集整理的自动化资产监控管理系统 | Python | 54 |
+| [softgitup](https://github.com/shellsec/softgitup) | SoftGitUp is a cross-platform software synchronization tool built on the principles of information security and data leakage prevention to minimize data uploads.SoftGitUp 是一个跨平台的软件同步工具，基于信息安全与数据防泄漏原则构建减少数据上传 | Python | 16 |
+| [SECDaily](https://github.com/shellsec/SECDaily) | 安全资讯 RSS 日报：聚合、Markdown/HTML 归档、GitHub Pages 搜索；可选 AI 每日总结（需配置 API）Security RSS digest: multi-source aggregation, AI/keyword summaries, HTML archive, multi-channel push, and GitHub Pages search. | HTML | 4 |
+| [watchvuln3](https://github.com/shellsec/watchvuln3) | WatchVuln 从 AVD、长亭、奇安信、OSCS、微步、Seebug、KEV 等源采集高危漏洞，按策略过滤后推送到钉钉、企业微信等；支持多群同类型推送、关闭启动通知、本地 Web 看板浏览情报库一键复制分析提示词并跳转 ChatGPT / Gemini / DeepSeek | Go | 3 |
 
 <details>
-<summary>🐾 猫咪脚边有张纸条……</summary>
+<summary>▸ 解密机械猫的私人频道</summary>
 
 ```text
-       /\_/\
-      ( o.o )   你发现了这间屋子的隐藏住客。
-       > ^ <
-
-      今日支线任务：
-      找一个让你好奇的开源项目，读一读它的 README。
-      如果喜欢，给作者留一颗星。
+ /\_/\      呼号：MISO
+[ o.o ]     职责：在轨巡逻、守护终端、偶尔摸鱼。
+ > ^ <      发现未知信号？点开一个仓库看看。
 ```
 
-[领取支线任务 →](https://github.com/explore)
+在[控制中心](https://shellsec.github.io/shellsec/)里点击机械猫，接收它的留言。
+终端支持 `help`、`projects`、`stars`、`warp` 和 `meow`。
 
 </details>
 
-<div align="center">
-
-<sub>这间小屋的灯一直亮着。<br/>Made of code, curiosity & a little cat hair.</sub>
-
-</div>
+<div align="center"><sub>保持好奇，继续发射。 · Built by shellsec</sub></div>

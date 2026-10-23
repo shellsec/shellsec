@@ -1,0 +1,45 @@
+name: Sync and launch orbital station
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: orbital-station
+  cancel-in-progress: false
+jobs:
+  station:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read public contributions and projects
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/sync.py
+      - name: Save updated star map
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/control-center.svg site/data.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh orbital station signals"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Launch station
+        id: deploy
+        uses: actions/deploy-pages@v4

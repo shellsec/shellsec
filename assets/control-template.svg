@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="t d">
+<title id="t">SHELLSEC orbital station</title><desc id="d">A galaxy of real daily GitHub contributions, with an animated orbital probe and robotic cat.</desc>
+<defs><radialGradient id="space"><stop stop-color="#183447"/><stop offset="1" stop-color="#08121f"/></radialGradient><radialGradient id="core"><stop stop-color="#e2fbff"/><stop offset=".3" stop-color="#7ddde9" stop-opacity=".7"/><stop offset="1" stop-color="#7ddde9" stop-opacity="0"/></radialGradient></defs>
+<style>text{font-family:Consolas,'Liberation Mono',monospace}.muted{fill:#91a5b9}.orbit{fill:none;stroke:#355365;stroke-width:1}.probe{transform-origin:778px 301px;animation:spin 26s linear infinite}.eye{animation:blink 6s infinite}.cursor{animation:blink 1.8s infinite}@keyframes spin{to{transform:rotate(360deg)}}@keyframes blink{0%,43%,49%,100%{opacity:1}46%{opacity:.12}}@media(prefers-reduced-motion:reduce){.probe,.eye,.cursor{animation:none}}@media(prefers-color-scheme:light){.back{fill:#102839}.muted{fill:#b5cbd8}}</style>
+<rect class="back" width="1200" height="650" rx="20" fill="#08121f"/><rect x="1" y="1" width="1198" height="648" rx="19" fill="none" stroke="#355365"/>
+<path d="M32 66h1136M32 567h1136" stroke="#355365"/>
+<circle cx="40" cy="36" r="4" fill="#8ce8ed"/><text x="56" y="41" fill="#b9d8e2" font-size="13" letter-spacing="2">SHELLSEC / ORBITAL STATION</text><text x="1000" y="41" class="muted" font-size="12">PUBLIC FREQUENCY</text>
+<ellipse cx="778" cy="301" rx="322" ry="250" fill="url(#space)"/>
+<ellipse cx="778" cy="301" rx="270" ry="188" class="orbit"/><ellipse cx="778" cy="301" rx="205" ry="143" class="orbit"/><ellipse cx="778" cy="301" rx="128" ry="89" class="orbit"/>
+<!-- STARS -->
+<circle cx="778" cy="301" r="55" fill="url(#core)"/><circle cx="778" cy="301" r="7" fill="#e2fbff"/>
+<g class="probe"><circle cx="1048" cy="301" r="5" fill="#efba78"/><path d="m1038 301 10-10 10 10-10 10Z" fill="none" stroke="#efba78"/></g>
+<text x="64" y="146" fill="#efba78" font-size="13" letter-spacing="3">A SIGNAL FROM EARTH</text>
+<text x="60" y="225" fill="#e5eff6" font-size="72" font-weight="bold" letter-spacing="-4">shellsec.</text>
+<text x="64" y="265" class="muted" font-size="17">Build. Explore. Stay curious.</text>
+<path d="M64 300h280" stroke="#355365"/>
+<text x="64" y="341" fill="#8ce8ed" font-size="14">$ station --connect</text>
+<text x="64" y="370" class="muted" font-size="14">[ok] contribution galaxy synced</text>
+<text x="64" y="399" class="muted" font-size="14">[ok] project channels open</text>
+<text x="64" y="428" fill="#efba78" font-size="14">[ok] MISO is on patrol</text>
+<rect x="64" y="450" width="9" height="17" fill="#8ce8ed" class="cursor"/>
+<text x="64" y="531" fill="#e5eff6" font-size="15">ENTER THE CONTROL CENTER ↗</text>
+<text x="675" y="543" class="muted" font-size="12">ONE STAR = ONE DAY / LAST 12 MONTHS</text>
+<g transform="translate(1050 444)"><path d="M0 22 4 0 21 13h23L61 0l4 24v35H0Z" fill="#20384b" stroke="#8ca9ba" stroke-width="2"/><rect x="8" y="24" width="48" height="22" rx="6" fill="#08121f"/><g class="eye" fill="#8ce8ed"><rect x="16" y="31" width="8" height="5"/><rect x="40" y="31" width="8" height="5"/></g><path d="m27 48 5 4 5-4M7 60v9m49-9v9m10-20q30 8 20-17" fill="none" stroke="#efba78" stroke-width="3"/><text x="12" y="92" class="muted" font-size="11">MISO-01</text></g>
+<text x="40" y="607" fill="#8ce8ed" font-size="14">CONTRIBUTIONS / TOTALCOUNT</text><text x="610" y="607" class="muted" font-size="12">SYNCSTAMP</text><text x="1015" y="607" fill="#efba78" font-size="12">LINK ESTABLISHED</text></svg>
