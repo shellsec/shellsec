@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23 10:31 UTC",
-  "total": 650,
+  "updated": "2026-10-24 07:22 UTC",
+  "total": 661,
   "days": [
     {
       "date": "2025-10-19",
@@ -104,7 +104,7 @@
     },
     {
       "date": "2025-11-13",
-      "contributionCount": 3
+      "contributionCount": 2
     },
     {
       "date": "2025-11-14",
@@ -1480,7 +1480,11 @@
     },
     {
       "date": "2026-10-23",
-      "contributionCount": 7
+      "contributionCount": 16
+    },
+    {
+      "date": "2026-10-24",
+      "contributionCount": 3
     }
   ],
   "projects": [
@@ -1517,9 +1521,19 @@
       "description": "SoftGitUp is a cross-platform software synchronization tool built on the principles of information security and data leakage prevention to minimize data uploads.SoftGitUp 是一个跨平台的软件同步工具，基于信息安全与数据防泄漏原则构建减少数据上传",
       "url": "https://github.com/shellsec/softgitup",
       "isFork": false,
-      "stargazerCount": 16,
+      "stargazerCount": 15,
       "primaryLanguage": {
         "name": "Python"
+      }
+    },
+    {
+      "name": "watchvuln3",
+      "description": "WatchVuln 从 AVD、长亭、奇安信、OSCS、微步、Seebug、KEV 等源采集高危漏洞，按策略过滤后推送到钉钉、企业微信等；支持多群同类型推送、关闭启动通知、本地 Web 看板浏览情报库一键复制分析提示词并跳转 ChatGPT / Gemini / DeepSeek",
+      "url": "https://github.com/shellsec/watchvuln3",
+      "isFork": false,
+      "stargazerCount": 4,
+      "primaryLanguage": {
+        "name": "Go"
       }
     },
     {
@@ -1530,16 +1544,6 @@
       "stargazerCount": 4,
       "primaryLanguage": {
         "name": "HTML"
-      }
-    },
-    {
-      "name": "watchvuln3",
-      "description": "WatchVuln 从 AVD、长亭、奇安信、OSCS、微步、Seebug、KEV 等源采集高危漏洞，按策略过滤后推送到钉钉、企业微信等；支持多群同类型推送、关闭启动通知、本地 Web 看板浏览情报库一键复制分析提示词并跳转 ChatGPT / Gemini / DeepSeek",
-      "url": "https://github.com/shellsec/watchvuln3",
-      "isFork": false,
-      "stargazerCount": 3,
-      "primaryLanguage": {
-        "name": "Go"
       }
     }
   ]
