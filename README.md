@@ -12,16 +12,44 @@
 
 </div>
 
-### 项目通讯
+## 开源作品目录
 
-| 项目 | 信号内容 | 语言 | Stars |
-| :-- | :-- | :-- | --: |
-| [AINav](https://github.com/shellsec/AINav) | 🧭 AINav — 最全 AI 工具导航站，收录 590+ AI 工具，涵盖写作、绘图、编程、视频、音频、智能体、RAG、MCP 等分类，支持收藏、搜索、深浅主题切换。 | HTML | 4 |
-| [bolemusic](https://github.com/shellsec/bolemusic) | 波乐音乐NS  Nintendo Switch 音乐播放器，支持触屏、歌词、动态氛围与多主题。音源需自行导入，支持多源自动切换。 | — | 1 |
-| [LangSrcCurise](https://github.com/shellsec/LangSrcCurise) | LangSrc资产监控系统是一套实现对指定域名进行持续性信息收集整理的自动化资产监控管理系统 | Python | 54 |
-| [softgitup](https://github.com/shellsec/softgitup) | SoftGitUp is a cross-platform software synchronization tool built on the principles of information security and data leakage prevention to minimize data uploads.SoftGitUp 是一个跨平台的软件同步工具，基于信息安全与数据防泄漏原则构建减少数据上传 | Python | 15 |
-| [watchvuln3](https://github.com/shellsec/watchvuln3) | WatchVuln 从 AVD、长亭、奇安信、OSCS、微步、Seebug、KEV 等源采集高危漏洞，按策略过滤后推送到钉钉、企业微信等；支持多群同类型推送、关闭启动通知、本地 Web 看板浏览情报库一键复制分析提示词并跳转 ChatGPT / Gemini / DeepSeek | Go | 4 |
-| [SECDaily](https://github.com/shellsec/SECDaily) | 安全资讯 RSS 日报：聚合、Markdown/HTML 归档、GitHub Pages 搜索；可选 AI 每日总结（需配置 API）Security RSS digest: multi-source aggregation, AI/keyword summaries, HTML archive, multi-channel push, and GitHub Pages search. | HTML | 4 |
+安全工具、AI 应用、自动化与音乐娱乐。找到需要的工具，直接打开仓库或项目入口。
+
+[安全工具](#安全工具) · [AI 应用](#ai-应用) · [自动化](#自动化) · [音乐娱乐](#音乐娱乐)
+
+### 安全工具
+
+| 项目 / 用途 | Stars | 最近推送 | 版本 / 入口 |
+| :-- | --: | :-- | :-- |
+| [LangSrcCurise](https://github.com/shellsec/LangSrcCurise)<br>持续收集域名资产，集中管理资产监控结果。 | 54 | 2019-08-12 | [使用说明](https://github.com/shellsec/LangSrcCurise#readme) |
+| [watchvuln3](https://github.com/shellsec/watchvuln3)<br>聚合多源高危漏洞情报，按策略推送到群聊。 | 4 | 2026-09-23 | [v3.1.0](https://github.com/shellsec/watchvuln3/releases/tag/v3.1.0) |
+| [SECDaily](https://github.com/shellsec/SECDaily)<br>聚合安全资讯 RSS，生成可搜索的日报归档。 | 4 | 2026-09-23 | [使用说明](https://github.com/shellsec/SECDaily#readme) |
+| [dnslog-rs](https://github.com/shellsec/dnslog-rs)<br>记录 DNS 查询，并通过 Web 仪表盘查看日志。 | 0 | 2025-03-19 | [使用说明](https://github.com/shellsec/dnslog-rs#readme) |
+
+### AI 应用
+
+| 项目 / 用途 | Stars | 最近推送 | 版本 / 入口 |
+| :-- | --: | :-- | :-- |
+| [AINav](https://github.com/shellsec/AINav)<br>分类查找 AI 工具，支持搜索、收藏和主题切换。 | 4 | 2026-10-21 | [访问](https://aiv123.com) |
+| [DeepAudit](https://github.com/shellsec/DeepAudit)<br>使用 DeepSeek 辅助分析多语言代码中的安全问题。 | 1 | 2025-03-29 | [使用说明](https://github.com/shellsec/DeepAudit#readme) |
+
+### 自动化
+
+| 项目 / 用途 | Stars | 最近推送 | 版本 / 入口 |
+| :-- | --: | :-- | :-- |
+| [softgitup](https://github.com/shellsec/softgitup)<br>跨平台同步软件，按需减少数据上传。 | 15 | 2026-10-26 | [1.0](https://github.com/shellsec/softgitup/releases/tag/1.0) |
+| [1panel-upgrade](https://github.com/shellsec/1panel-upgrade)<br>自动升级 1Panel 面板，支持国内与国际版本。 | 0 | 2025-05-09 | [使用说明](https://github.com/shellsec/1panel-upgrade#readme) |
+| [1panel_multi_apps_autoupgrade](https://github.com/shellsec/1panel_multi_apps_autoupgrade)<br>检查并批量升级 1Panel 中的应用。 | 0 | 2025-04-02 | [使用说明](https://github.com/shellsec/1panel_multi_apps_autoupgrade#readme) |
+| [Down2Markdown](https://github.com/shellsec/Down2Markdown)<br>自动检查并更新多个常用笔记应用。 | 1 | 2025-08-15 | [使用说明](https://github.com/shellsec/Down2Markdown#readme) |
+
+### 音乐娱乐
+
+| 项目 / 用途 | Stars | 最近推送 | 版本 / 入口 |
+| :-- | --: | :-- | :-- |
+| [bolemusic](https://github.com/shellsec/bolemusic)<br>在 Nintendo Switch 上听音乐，支持歌词和多主题。 | 1 | 2026-10-21 | [v1.0.0](https://github.com/shellsec/bolemusic/releases/tag/v1.0.0) |
+| [boleserver](https://github.com/shellsec/boleserver)<br>跨平台音乐服务端，提供 Web 播放器与桌面版本。 | 0 | 2026-10-23 | [v2.1.3-bole.1](https://github.com/shellsec/boleserver/releases/tag/v2.1.3-bole.1) · [下载](https://github.com/shellsec/boleserver/releases/latest) |
+
 
 <details>
 <summary>▸ 解密机械猫的私人频道</summary>

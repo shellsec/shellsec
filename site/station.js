@@ -43,6 +43,48 @@ let catIndex = 0;
 const messages = ['喵。轨道正常，咖啡储量未知。', '你知道吗？这里每颗星，都是一天真实的贡献记录。', '我的工作是巡逻，最擅长的技能是休眠。', '试试在终端输入 warp。准备好跃迁了吗？', '收到新任务：去给喜欢的开源项目一颗星。'];
 $('#cat').onclick = () => { $('#cat-message').textContent = messages[catIndex++ % messages.length]; };
 function log(text) { const p = document.createElement('p'); p.textContent = text; $('#log').append(p); while ($('#log').children.length > 25) $('#log').firstElementChild.remove(); $('#log').scrollTop = $('#log').scrollHeight; }
+const categories = ['全部', '安全工具', 'AI 应用', '自动化', '音乐娱乐'];
+let activeCategory = '全部';
+function projectLink(label, url) {
+  const link = document.createElement('a'); link.textContent = label; link.href = url; return link;
+}
+function renderProjects() {
+  if (!data) return;
+  const query = $('#project-search').value.trim().toLowerCase();
+  const projects = data.projects.filter(p => (activeCategory === '全部' || p.category === activeCategory) && `${p.name} ${p.summary} ${p.primaryLanguage?.name || ''}`.toLowerCase().includes(query));
+  $('#project-count').textContent = `${projects.length} / ${data.projects.length} 个精选项目`;
+  const list = $('#project-list'); list.replaceChildren();
+  if (!projects.length) {
+    const empty = document.createElement('p'); empty.className = 'empty'; empty.textContent = '没有找到匹配项目。换个关键词，或选择“全部”。'; list.append(empty); return;
+  }
+  for (const category of categories.slice(1)) {
+    const members = projects.filter(p => p.category === category); if (!members.length) continue;
+    const group = document.createElement('section'); group.className = 'project-group';
+    const heading = document.createElement('h3'); heading.className = 'category-heading'; heading.textContent = category; group.append(heading);
+    members.forEach(project => {
+      const article = document.createElement('article'); article.className = 'project';
+      const body = document.createElement('div'), title = document.createElement('h4'); title.append(projectLink(project.name + ' ↗', project.url));
+      const desc = document.createElement('p'); desc.textContent = project.summary; body.append(title, desc);
+      const details = document.createElement('div'); details.className = 'project-details';
+      const language = document.createElement('span'); language.textContent = project.primaryLanguage?.name || '开源项目';
+      const stars = document.createElement('span'); stars.textContent = `★ ${project.stargazerCount}`;
+      const date = document.createElement('span'); date.textContent = '最近推送 ' + (project.pushedAt?.slice(0, 10) || '—');
+      details.append(language, stars, date); body.append(details);
+      const actions = document.createElement('div'); actions.className = 'project-actions';
+      if (project.homepageUrl) actions.append(projectLink(project.homepageUrl.includes('/releases') ? '下载版本 ↗' : '访问项目 ↗', project.homepageUrl));
+      if (project.latestRelease) actions.append(projectLink(project.latestRelease.tagName, project.latestRelease.url));
+      actions.append(projectLink('使用说明 ↗', project.url + '#readme'));
+      article.append(body, actions); group.append(article);
+    });
+    list.append(group);
+  }
+}
+categories.forEach(category => {
+  const button = document.createElement('button'); button.type = 'button'; button.textContent = category; button.setAttribute('aria-pressed', String(category === activeCategory));
+  button.onclick = () => { activeCategory = category; $('#project-filters').querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b === button))); renderProjects(); };
+  $('#project-filters').append(button);
+});
+$('#project-search').addEventListener('input', renderProjects);
 $('#terminal').addEventListener('submit', e => {
   e.preventDefault(); const command = $('#command').value.trim().toLowerCase(); if (!command) return; log('$ ' + command); $('#command').value = '';
   switch (command) {
@@ -57,14 +99,5 @@ $('#terminal').addEventListener('submit', e => {
 });
 fetch('data.json').then(r => { if (!r.ok) throw Error(r.status); return r.json(); }).then(payload => {
   data = payload; $('#total').textContent = `${data.total.toLocaleString()} 次贡献 / ${data.days.length} 天观测`; $('#updated').textContent = '最近同步 ' + data.updated;
-  const list = $('#project-list'); list.replaceChildren();
-  data.projects.forEach((project, index) => {
-    const article = document.createElement('article'); article.className = 'project';
-    const number = document.createElement('span'); number.className = 'index'; number.textContent = String(index + 1).padStart(2, '0');
-    const body = document.createElement('div'), title = document.createElement('h3'), link = document.createElement('a');
-    link.href = project.url; link.textContent = project.name + ' ↗'; title.append(link);
-    const desc = document.createElement('p'); desc.textContent = project.description || '打开仓库，探索项目。'; body.append(title, desc);
-    const meta = document.createElement('div'); meta.className = 'meta'; meta.textContent = `${project.primaryLanguage?.name || '开源项目'} / ★ ${project.stargazerCount}`;
-    article.append(number, body, meta); list.append(article);
-  });
+  renderProjects();
 }).catch(() => { $('#total').textContent = '贡献数据暂时不可用'; $('#updated').textContent = '请刷新重试，或通过项目舱访问 GitHub'; log('星图同步失败。项目舱中的 GitHub 链接仍可使用。'); });
