@@ -23,7 +23,7 @@
 | 项目 / 用途 | Stars | 最近推送 | 版本 / 入口 |
 | :-- | --: | :-- | :-- |
 | [LangSrcCurise](https://github.com/shellsec/LangSrcCurise)<br>持续收集域名资产，集中管理资产监控结果。 | 54 | 2019-08-12 | [使用说明](https://github.com/shellsec/LangSrcCurise#readme) |
-| [watchvuln3](https://github.com/shellsec/watchvuln3)<br>聚合多源高危漏洞情报，按策略推送到群聊。 | 4 | 2026-09-23 | [v3.1.0](https://github.com/shellsec/watchvuln3/releases/tag/v3.1.0) |
+| [watchvuln3](https://github.com/shellsec/watchvuln3)<br>聚合多源高危漏洞情报，按策略推送到群聊。 | 5 | 2026-09-23 | [v3.1.0](https://github.com/shellsec/watchvuln3/releases/tag/v3.1.0) |
 | [SECDaily](https://github.com/shellsec/SECDaily)<br>聚合安全资讯 RSS，生成可搜索的日报归档。 | 4 | 2026-09-23 | [使用说明](https://github.com/shellsec/SECDaily#readme) |
 | [dnslog-rs](https://github.com/shellsec/dnslog-rs)<br>记录 DNS 查询，并通过 Web 仪表盘查看日志。 | 0 | 2025-03-19 | [使用说明](https://github.com/shellsec/dnslog-rs#readme) |
 
