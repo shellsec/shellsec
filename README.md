@@ -47,7 +47,7 @@
 
 | 项目 / 用途 | Stars | 最近推送 | 版本 / 入口 |
 | :-- | --: | :-- | :-- |
-| [bolemusic](https://github.com/shellsec/bolemusic)<br>在 Nintendo Switch 上听音乐，支持歌词和多主题。 | 1 | 2026-10-21 | [v1.0.0](https://github.com/shellsec/bolemusic/releases/tag/v1.0.0) |
+| [bolemusic](https://github.com/shellsec/bolemusic)<br>在 Nintendo Switch 上听音乐，支持歌词和多主题。 | 1 | 2026-10-30 | [v1.0.0](https://github.com/shellsec/bolemusic/releases/tag/v1.0.0) |
 | [boleserver](https://github.com/shellsec/boleserver)<br>跨平台音乐服务端，提供 Web 播放器与桌面版本。 | 0 | 2026-10-23 | [v2.1.3-bole.1](https://github.com/shellsec/boleserver/releases/tag/v2.1.3-bole.1) · [下载](https://github.com/shellsec/boleserver/releases/latest) |
 
 
