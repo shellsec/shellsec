@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-01 09:21 UTC",
-  "total": 667,
+  "updated": "2026-11-02 09:36 UTC",
+  "total": 654,
   "days": [
     {
       "date": "2025-11-02",
@@ -1400,7 +1400,7 @@
     },
     {
       "date": "2026-10-17",
-      "contributionCount": 3
+      "contributionCount": 2
     },
     {
       "date": "2026-10-18",
@@ -1420,7 +1420,7 @@
     },
     {
       "date": "2026-10-22",
-      "contributionCount": 18
+      "contributionCount": 15
     },
     {
       "date": "2026-10-23",
@@ -1452,7 +1452,7 @@
     },
     {
       "date": "2026-10-30",
-      "contributionCount": 5
+      "contributionCount": 3
     },
     {
       "date": "2026-10-31",
@@ -1460,6 +1460,10 @@
     },
     {
       "date": "2026-11-01",
+      "contributionCount": 4
+    },
+    {
+      "date": "2026-11-02",
       "contributionCount": 5
     }
   ],
@@ -1619,22 +1623,6 @@
       "latestRelease": null,
       "category": "自动化",
       "summary": "自动检查并更新多个常用笔记应用。"
-    },
-    {
-      "name": "bolemusic",
-      "description": "波乐音乐NS  Nintendo Switch 音乐播放器，支持触屏、歌词、动态氛围与多主题。音源需自行导入，支持多源自动切换。跨平台音乐播放器",
-      "url": "https://github.com/shellsec/bolemusic",
-      "homepageUrl": null,
-      "pushedAt": "2026-10-30T10:21:53Z",
-      "isFork": false,
-      "stargazerCount": 1,
-      "primaryLanguage": null,
-      "latestRelease": {
-        "tagName": "v1.0.0",
-        "url": "https://github.com/shellsec/bolemusic/releases/tag/v1.0.0"
-      },
-      "category": "音乐娱乐",
-      "summary": "在 Nintendo Switch 上听音乐，支持歌词和多主题。"
     },
     {
       "name": "boleserver",
