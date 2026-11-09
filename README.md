@@ -38,7 +38,7 @@
 
 | 项目 / 用途 | Stars | 最近推送 | 版本 / 入口 |
 | :-- | --: | :-- | :-- |
-| [softgitup](https://github.com/shellsec/softgitup)<br>跨平台同步软件，按需减少数据上传。 | 15 | 2026-11-06 | [1.0](https://github.com/shellsec/softgitup/releases/tag/1.0) |
+| [softgitup](https://github.com/shellsec/softgitup)<br>跨平台同步软件，按需减少数据上传。 | 15 | 2026-11-09 | [1.0](https://github.com/shellsec/softgitup/releases/tag/1.0) |
 | [1panel-upgrade](https://github.com/shellsec/1panel-upgrade)<br>自动升级 1Panel 面板，支持国内与国际版本。 | 0 | 2025-05-09 | [使用说明](https://github.com/shellsec/1panel-upgrade#readme) |
 | [1panel_multi_apps_autoupgrade](https://github.com/shellsec/1panel_multi_apps_autoupgrade)<br>检查并批量升级 1Panel 中的应用。 | 0 | 2025-04-02 | [使用说明](https://github.com/shellsec/1panel_multi_apps_autoupgrade#readme) |
 | [Down2Markdown](https://github.com/shellsec/Down2Markdown)<br>自动检查并更新多个常用笔记应用。 | 1 | 2025-08-15 | [使用说明](https://github.com/shellsec/Down2Markdown#readme) |
@@ -47,7 +47,7 @@
 
 | 项目 / 用途 | Stars | 最近推送 | 版本 / 入口 |
 | :-- | --: | :-- | :-- |
-| [bolemusic](https://github.com/shellsec/bolemusic)<br>在 Nintendo Switch 上听音乐，支持歌词和多主题。 | 0 | 2026-11-08 | [使用说明](https://github.com/shellsec/bolemusic#readme) |
+| [bolemusic](https://github.com/shellsec/bolemusic)<br>在 Nintendo Switch 上听音乐，支持歌词和多主题。 | 0 | 2026-11-09 | [使用说明](https://github.com/shellsec/bolemusic#readme) |
 | [boleserver](https://github.com/shellsec/boleserver)<br>跨平台音乐服务端，提供 Web 播放器与桌面版本。 | 0 | 2026-10-23 | [v2.1.3-bole.1](https://github.com/shellsec/boleserver/releases/tag/v2.1.3-bole.1) · [下载](https://github.com/shellsec/boleserver/releases/latest) |
 
 
