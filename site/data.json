@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13 09:38 UTC",
-  "total": 687,
+  "updated": "2026-11-14 09:02 UTC",
+  "total": 696,
   "days": [
     {
       "date": "2025-11-09",
@@ -1480,7 +1480,11 @@
     },
     {
       "date": "2026-11-13",
-      "contributionCount": 0
+      "contributionCount": 5
+    },
+    {
+      "date": "2026-11-14",
+      "contributionCount": 4
     }
   ],
   "projects": [
@@ -1582,15 +1586,15 @@
       "description": "SoftGitUp is a cross-platform software synchronization tool built on the principles of information security and data leakage prevention to minimize data uploads.SoftGitUp 是一个跨平台的软件同步工具，基于信息安全与数据防泄漏原则构建减少数据上传",
       "url": "https://github.com/shellsec/softgitup",
       "homepageUrl": null,
-      "pushedAt": "2026-11-12T13:30:57Z",
+      "pushedAt": "2026-11-13T13:19:13Z",
       "isFork": false,
       "stargazerCount": 15,
       "primaryLanguage": {
         "name": "Python"
       },
       "latestRelease": {
-        "tagName": "1.0",
-        "url": "https://github.com/shellsec/softgitup/releases/tag/1.0"
+        "tagName": "v2026.11.13",
+        "url": "https://github.com/shellsec/softgitup/releases/tag/v2026.11.13"
       },
       "category": "自动化",
       "summary": "跨平台同步软件，按需减少数据上传。"
