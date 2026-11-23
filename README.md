@@ -31,7 +31,7 @@
 
 | 项目 / 用途 | Stars | 最近推送 | 版本 / 入口 |
 | :-- | --: | :-- | :-- |
-| [AINav](https://github.com/shellsec/AINav)<br>分类查找 AI 工具，支持搜索、收藏和主题切换。 | 4 | 2026-10-21 | [访问](https://aiv123.com) |
+| [AINav](https://github.com/shellsec/AINav)<br>分类查找 AI 工具，支持搜索、收藏和主题切换。 | 5 | 2026-10-21 | [访问](https://aiv123.com) |
 | [DeepAudit](https://github.com/shellsec/DeepAudit)<br>使用 DeepSeek 辅助分析多语言代码中的安全问题。 | 1 | 2025-03-29 | [使用说明](https://github.com/shellsec/DeepAudit#readme) |
 
 ### 自动化
