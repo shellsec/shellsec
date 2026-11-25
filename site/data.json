@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24 12:35 UTC",
-  "total": 724,
+  "updated": "2026-11-25 11:24 UTC",
+  "total": 736,
   "days": [
     {
       "date": "2025-11-23",
@@ -1468,7 +1468,11 @@
     },
     {
       "date": "2026-11-24",
-      "contributionCount": 2
+      "contributionCount": 11
+    },
+    {
+      "date": "2026-11-25",
+      "contributionCount": 3
     }
   ],
   "projects": [
@@ -1570,7 +1574,7 @@
       "description": "SoftGitUp is a cross-platform software synchronization tool built on the principles of information security and data leakage prevention to minimize data uploads.SoftGitUp 是一个跨平台的软件同步工具，基于信息安全与数据防泄漏原则构建减少数据上传",
       "url": "https://github.com/shellsec/softgitup",
       "homepageUrl": null,
-      "pushedAt": "2026-11-19T09:15:19Z",
+      "pushedAt": "2026-11-25T07:22:20Z",
       "isFork": false,
       "stargazerCount": 16,
       "primaryLanguage": {
@@ -1647,7 +1651,7 @@
       "name": "boleserver",
       "description": "基于 LXServer 的跨平台音乐服务端，支持 LX 音源订阅、自动切换、Web 播放器、LX 同步与 Subsonic，提供 Docker 一键部署及 Windows/macOS/Linux 桌面版。",
       "url": "https://github.com/shellsec/boleserver",
-      "homepageUrl": "https://github.com/shellsec/boleserver/releases/latest",
+      "homepageUrl": "https://shellsec.com/lx-music-guide",
       "pushedAt": "2026-10-23T11:49:22Z",
       "isFork": false,
       "stargazerCount": 1,
