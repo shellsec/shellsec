@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25 11:24 UTC",
-  "total": 736,
+  "updated": "2026-11-26 10:59 UTC",
+  "total": 763,
   "days": [
     {
       "date": "2025-11-23",
@@ -740,11 +740,11 @@
     },
     {
       "date": "2026-05-26",
-      "contributionCount": 17
+      "contributionCount": 16
     },
     {
       "date": "2026-05-27",
-      "contributionCount": 4
+      "contributionCount": 3
     },
     {
       "date": "2026-05-28",
@@ -1472,7 +1472,11 @@
     },
     {
       "date": "2026-11-25",
-      "contributionCount": 3
+      "contributionCount": 18
+    },
+    {
+      "date": "2026-11-26",
+      "contributionCount": 14
     }
   ],
   "projects": [
@@ -1574,7 +1578,7 @@
       "description": "SoftGitUp is a cross-platform software synchronization tool built on the principles of information security and data leakage prevention to minimize data uploads.SoftGitUp 是一个跨平台的软件同步工具，基于信息安全与数据防泄漏原则构建减少数据上传",
       "url": "https://github.com/shellsec/softgitup",
       "homepageUrl": null,
-      "pushedAt": "2026-11-25T07:22:20Z",
+      "pushedAt": "2026-11-26T03:01:13Z",
       "isFork": false,
       "stargazerCount": 16,
       "primaryLanguage": {
@@ -1631,39 +1635,6 @@
       "latestRelease": null,
       "category": "自动化",
       "summary": "自动检查并更新多个常用笔记应用。"
-    },
-    {
-      "name": "bolemusic",
-      "description": null,
-      "url": "https://github.com/shellsec/bolemusic",
-      "homepageUrl": null,
-      "pushedAt": "2026-11-09T05:29:42Z",
-      "isFork": false,
-      "stargazerCount": 0,
-      "primaryLanguage": {
-        "name": "Python"
-      },
-      "latestRelease": null,
-      "category": "音乐娱乐",
-      "summary": "在 Nintendo Switch 上听音乐，支持歌词和多主题。"
-    },
-    {
-      "name": "boleserver",
-      "description": "基于 LXServer 的跨平台音乐服务端，支持 LX 音源订阅、自动切换、Web 播放器、LX 同步与 Subsonic，提供 Docker 一键部署及 Windows/macOS/Linux 桌面版。",
-      "url": "https://github.com/shellsec/boleserver",
-      "homepageUrl": "https://shellsec.com/lx-music-guide",
-      "pushedAt": "2026-10-23T11:49:22Z",
-      "isFork": false,
-      "stargazerCount": 1,
-      "primaryLanguage": {
-        "name": "JavaScript"
-      },
-      "latestRelease": {
-        "tagName": "v2.1.3-bole.1",
-        "url": "https://github.com/shellsec/boleserver/releases/tag/v2.1.3-bole.1"
-      },
-      "category": "音乐娱乐",
-      "summary": "跨平台音乐服务端，提供 Web 播放器与桌面版本。"
     }
   ]
 }
